@@ -13,4 +13,4 @@ EXPOSE 80
 # Start Nginx service
 CMD ["nginx", "-g", "daemon off;"]
 
-COPY nginx.conf /etc/nginx/sites-enabled/default
+COPY index.html /var/www/html/
