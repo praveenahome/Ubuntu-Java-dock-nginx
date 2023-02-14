@@ -12,3 +12,5 @@ EXPOSE 80
 
 # Start Nginx service
 CMD ["nginx", "-g", "daemon off;"]
+
+COPY index.html /var/www/html/
